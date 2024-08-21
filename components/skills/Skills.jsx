@@ -191,14 +191,14 @@ const Skills = () => {
           icon: <MdCloud />,
           items: [
             {
-              img: "/images/frameworks/azure.png",
-              alt: "azure",
-              link: "https://azure.microsoft.com/en-us",
-            },
-            {
               img: "/images/frameworks/aws.webp",
               alt: "aws",
               link: "https://aws.amazon.com/",
+            },
+            {
+              img: "/images/frameworks/azure.png",
+              alt: "azure",
+              link: "https://azure.microsoft.com/en-us",
             },
             {
               img: "/images/frameworks/ggcloud.png",

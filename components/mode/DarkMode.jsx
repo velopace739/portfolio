@@ -5,7 +5,7 @@ export default function DarkMode() {
   const { theme, setTheme } = useTheme();
 
   if (theme === undefined || theme === "system") {
-    setTheme("dark");
+    setTheme("light");
   }
   // toggle of dark & light mode
   const toggle = () => {

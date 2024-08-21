@@ -19,7 +19,52 @@ const Works = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { theme } = useTheme();
 
-  const portfolioData = [];
+  const portfolioData = [
+    {
+      id: 1,
+      img: '/images/work_images/educative.jpg',
+      imgSmall: '/images/work_images/educative.jpg',
+      tag: 'Educative',
+      title: 'Interactive Learning Platform',
+      description: 'A dynamic and interactive learning platform designed to deliver coding education and technical skill-building through hands-on coding environments. The platform allows users to learn and practice coding directly in the browser with no setup required, offering a variety of courses ranging from beginner to advanced levels.',
+      link: 'https://www.educative.io/',
+      linkText: 'educative.io',
+      langages: 'Node.js React.js AWS'
+    },
+    {
+      id: 2,
+      img: '/images/work_images/kryptomon.png',
+      imgSmall: '/images/work_images/kryptomon.png',
+      tag: 'Kryptomon',
+      title: 'Blockchain-Based Gaming Platform',
+      description: 'A blockchain-based gaming platform where players can collect, train, and battle digital creatures called Kryptomons. Combining elements of Pokémon-style gameplay with blockchain technology, the platform offers an immersive experience where players can own, trade, and breed unique creatures, each with its own set of attributes and abilities. The game leverages NFTs (Non-Fungible Tokens) to ensure that each Kryptomon is one-of-a-kind and securely owned by the player.',
+      link: 'https://www.kryptomon.co/',
+      linkText: 'kryptomon.co',
+      langages: 'Express.js React.js MongoDB'
+    },
+    {
+      id: 3,
+      img: '/images/work_images/rallypoint.jpg',
+      imgSmall: '/images/work_images/rallypoint.jpg',
+      tag: 'Rallypoint',
+      title: 'Military Networking Platform',
+      description: 'A professional networking platform designed specifically for members of the military community. The platform connects service members, veterans, and military family members, providing a space for networking, career advancement, and sharing knowledge. Users can build profiles, connect with others, participate in discussions, and access career resources tailored to their military experience.',
+      link: 'https://www.rallypoint.com/',
+      linkText: 'rallypoint.com',
+      langages: 'Node.js'
+    },
+    {
+      id: 4,
+      img: '/images/work_images/consent2share.png',
+      imgSmall: '/images/work_images/consent2share.png',
+      tag: 'Consent2Share',
+      title: 'Healthcare Data Consent Management Platform',
+      description: 'A professional networking platform designed specifically for members of the military community. The platform connects service members, veterans, and military family members, providing a space for networking, career advancement, and sharing knowledge. Users can build profiles, connect with others, participate in discussions, and access career resources tailored to their military experience.',
+      // link: 'https://www.okmis.info/',
+      // linkText: 'okmis.info',
+      langages: 'Node.js'
+    },
+  ];
 
   const handlePortfolioData = (id) => {
     const find = portfolioData.find((item) => item?.id === id);
@@ -110,7 +155,7 @@ const Works = () => {
                     </a>
                   </span>
                 </p>
-                <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
+                {/* <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                   <FiExternalLink className="text-lg mr-2 hidden sm:block" />
                   Github :&nbsp;
                   <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
@@ -122,7 +167,7 @@ const Works = () => {
                       {singleData?.githubText}
                     </a>
                   </span>
-                </p>
+                </p> */}
               </div>
             </div>
 
