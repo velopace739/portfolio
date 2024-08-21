@@ -9,9 +9,9 @@ const Seo = () => {
       <title>{title}</title>
       <meta name="description" content={description}/>
 
-      <meta itemprop="name" content={title}/>
-      <meta itemprop="description" content={description}/>
-      <meta itemprop="image" content={image}/>
+      <meta itemProp="name" content={title}/>
+      <meta itemProp="description" content={description}/>
+      <meta itemProp="image" content={image}/>
 
       <meta property="og:url" content="https://portfolio-chrisma.vercel.app"/>
       <meta property="og:type" content="website"/>
