@@ -73,7 +73,7 @@ const Address = () => {
         <div
           key={i}
           style={{
-            background: `${theme === "dark" || theme === undefined ? "#212425" : item?.bg}`,
+            background: `${theme === "dark" ? "#212425" : item?.bg}`,
           }}
           className="flex flex-wrap dark:bg-transparent p-[30px]  border-[#A6A6A6] gap-2 rounded-xl "
         >

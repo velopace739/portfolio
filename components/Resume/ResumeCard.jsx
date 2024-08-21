@@ -66,7 +66,7 @@ const ResumeCard = () => {
               className="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg  dark:border-[#212425] dark:border-2"
               style={{
                 background: `${
-                  theme === "dark" || theme === undefined ? "transparent" : singleItem?.bg
+                  theme === "dark" ? "transparent" : singleItem?.bg
                 }`,
               }}
               key={singleKey}
