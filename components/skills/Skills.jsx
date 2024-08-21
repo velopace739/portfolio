@@ -246,7 +246,7 @@ const Skills = () => {
                 className="flex flex-row flex-wrap py-4 pl-5 pr-3 mb-6 rounded-lg  dark:border-[#212425] dark:border-2"
                 style={{
                     background: `${
-                        theme === "dark" || theme === undefined ? "#1d1d1d" : item?.bg
+                        theme === "dark" ? "#1d1d1d" : item?.bg
                     }`,
                 }}
             >
