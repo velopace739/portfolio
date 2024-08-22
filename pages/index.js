@@ -77,7 +77,7 @@ const HomePage = () => {
                   <div className="grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mb-[40px] grid gap-x-5 gap-y-7">
                     <Address />
                   </div>
-                  <ContactForm />
+                  {/* <ContactForm /> */}
                 </div>
               </section>
               <Footer />
