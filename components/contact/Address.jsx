@@ -29,9 +29,15 @@ const Address = () => {
       title: "Skype ",
       info: (
         <>
-          <p>
-            live:.cid.449c3224015102e9
-          </p>
+          <a
+            href="https://join.skype.com/invite/iL3DXJW1xKaF"
+            className="hover:text-[#FA5252] duration-300 transition text-gray-lite text-lg dark:text-[#A6A6A6]"
+            target="_blank"
+          >
+            <p>
+              live:.cid.449c3224015102e9
+            </p>
+          </a>
         </>
       ),
       bg: "#FCF4FF",

@@ -28,7 +28,17 @@ const Info = () => {
       icon: <FaSkype />,
       iconColor: "text-[#00AFF0]",
       name: "Skype",
-      meta: <>live:.cid.449c3224015102e9</>,
+      meta: (
+        <>
+          <a
+            className="hover:text-[#FA5252] duration-300 transition"
+            href="https://join.skype.com/invite/iL3DXJW1xKaF"
+            target="_blank"
+          >
+            live:.cid.449c3224015102e9
+          </a>
+        </>
+      ),
     },
     {
       border: "border-b border-[#E3E3E3] dark:border-[#3D3A3A]",
