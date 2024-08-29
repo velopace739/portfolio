@@ -6,7 +6,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} All Rights Reserved by{" "}
           <a
             className="hover:text-[#FA5252] duration-300 transition"
-            href="https://www.linkedin.com/in/duy-lan-le-445262163/"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
           >
