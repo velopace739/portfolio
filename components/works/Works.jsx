@@ -59,7 +59,7 @@ const Works = () => {
       imgSmall: '/images/work_images/consent2share.png',
       tag: 'Consent2Share',
       title: 'Healthcare Data Consent Management Platform',
-      description: 'A professional networking platform designed specifically for members of the military community. The platform connects service members, veterans, and military family members, providing a space for networking, career advancement, and sharing knowledge. Users can build profiles, connect with others, participate in discussions, and access career resources tailored to their military experience.',
+      description: 'A healthcare data consent management platform designed to help patients securely manage and share their sensitive health information with authorized providers and organizations. The platform ensures that patient data sharing complies with privacy regulations like HIPAA, providing a user-friendly interface for managing consent forms, tracking data access, and revoking consent when necessary.',
       // link: 'https://www.okmis.info/',
       // linkText: 'okmis.info',
       langages: 'Node.js'
