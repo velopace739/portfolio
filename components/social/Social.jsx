@@ -1,6 +1,7 @@
 import {
   FaLinkedinIn,
-  FaGithub
+  FaGithub,
+  FaTwitter,
 } from "react-icons/fa";
 
 const Social = () => {
@@ -15,6 +16,11 @@ const Social = () => {
     //   icon: <FaLinkedinIn />,
     //   iconClass: "text-[#0072b1]",
     // },
+    {
+      link: "https://x.com/velopace7",
+      icon: <FaTwitter />,
+      iconClass: "",
+    },
   ];
 
   return (
