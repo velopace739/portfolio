@@ -33,8 +33,8 @@ const Works = () => {
     },
     {
       id: 2,
-      img: '/images/work_images/kryptomon.png',
-      imgSmall: '/images/work_images/kryptomon.png',
+      img: '/images/work_images/kryptomon.jpg',
+      imgSmall: '/images/work_images/kryptomon.jpg',
       tag: 'Kryptomon',
       title: 'Blockchain-Based Gaming Platform',
       description: 'A blockchain-based gaming platform where players can collect, train, and battle digital creatures called Kryptomons. Combining elements of Pokémon-style gameplay with blockchain technology, the platform offers an immersive experience where players can own, trade, and breed unique creatures, each with its own set of attributes and abilities. The game leverages NFTs (Non-Fungible Tokens) to ensure that each Kryptomon is one-of-a-kind and securely owned by the player.',
