@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const Seo = () => {
   const title = "Chris Ma";
-  const description = "Explore the portfolio of Chris Ma, a seasoned full-stack developer with extensive experience in creating dynamic and responsive web applications. Chris delivers high-performance solutions tailored to meet client needs. Whether you’re seeking freelance collaborations or full-time engagements, Chris is dedicated to helping businesses succeed in the digital landscape.";
+  const description = "A seasoned full-stack developer with extensive experience in creating dynamic and responsive web applications. Chris delivers high-performance solutions tailored to meet client needs. Whether you’re seeking freelance collaborations or full-time engagements, Chris is dedicated to helping businesses succeed in the digital landscape.";
   // const image = "/images/about/avatar.jpg";
   const image = "";
   return (
