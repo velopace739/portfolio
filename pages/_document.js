@@ -4,7 +4,8 @@ import { Analytics } from '@vercel/analytics/react';
 export default function Document() {
   const title = "Chris Ma";
   const description = "Explore the portfolio of Chris Ma, a seasoned full-stack developer with extensive experience in creating dynamic and responsive web applications. Chris delivers high-performance solutions tailored to meet client needs. Whether you’re seeking freelance collaborations or full-time engagements, Chris is dedicated to helping businesses succeed in the digital landscape.";
-  const image = "/images/about/velopace.jpg";
+  // const image = "/images/about/avatar.jpg";
+  const image = "";
   return (
     <Html lang="en">
       <Head>
@@ -17,18 +18,18 @@ export default function Document() {
 
         <meta itemProp="name" content={title}/>
         <meta itemProp="description" content={description}/>
-        {/* <meta itemProp="image" content={image}/> */}
+        <meta itemProp="image" content={image}/>
 
         <meta property="og:url" content="https://portofolio-chrisma.vercel.app"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content={title}/>
         <meta property="og:description" content={description}/>
-        {/* <meta property="og:image" content={image}/> */}
+        <meta property="og:image" content={image}/>
 
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content={title}/>
         <meta name="twitter:description" content={description}/>
-        {/* <meta name="twitter:image" content={image}/> */}
+        <meta name="twitter:image" content={image}/>
         <meta content="chris ma, software engineer, full stack developer, chris, velopace7@gmail.com" name="keywords" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
