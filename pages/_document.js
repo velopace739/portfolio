@@ -17,19 +17,19 @@ export default function Document() {
 
         <meta itemProp="name" content={title}/>
         <meta itemProp="description" content={description}/>
-        <meta itemProp="image" content={image}/>
+        {/* <meta itemProp="image" content={image}/> */}
 
         <meta property="og:url" content="https://portofolio-chrisma.vercel.app"/>
         <meta property="og:type" content="website"/>
         <meta property="og:title" content={title}/>
         <meta property="og:description" content={description}/>
-        <meta property="og:image" content={image}/>
+        {/* <meta property="og:image" content={image}/> */}
 
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content={title}/>
         <meta name="twitter:description" content={description}/>
-        <meta name="twitter:image" content={image}/>
-        <meta content="chris ma, software engineer, chris, velopace7@gmail.com" name="keywords" />
+        {/* <meta name="twitter:image" content={image}/> */}
+        <meta content="chris ma, software engineer, full stack developer, chris, velopace7@gmail.com" name="keywords" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
