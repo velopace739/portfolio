@@ -20,17 +20,6 @@ const Works = () => {
   const { theme } = useTheme();
 
   const portfolioData = [
-    // {
-    //   id: 1,
-    //   img: '/images/work_images/educative.jpg',
-    //   imgSmall: '/images/work_images/educative.jpg',
-    //   tag: 'Educative',
-    //   title: 'Interactive Learning Platform',
-    //   description: 'A dynamic and interactive learning platform designed to deliver coding education and technical skill-building through hands-on coding environments. The platform allows users to learn and practice coding directly in the browser with no setup required, offering a variety of courses ranging from beginner to advanced levels.',
-    //   link: 'https://www.educative.io/',
-    //   linkText: 'educative.io',
-    //   langages: 'Node.js React.js AWS'
-    // },
     {
       id: 2,
       img: '/images/work_images/kryptomon.jpg',
@@ -74,6 +63,17 @@ const Works = () => {
       link: 'https://play.bitpool.gg/',
       linkText: 'play.bitpool.gg',
       langages: 'React.js Next.js Solidity'
+    },
+    {
+      id: 6,
+      img: '/images/work_images/educative.jpg',
+      imgSmall: '/images/work_images/educative.jpg',
+      tag: 'Educative',
+      title: 'Interactive Learning Platform',
+      description: 'A dynamic and interactive learning platform designed to deliver coding education and technical skill-building through hands-on coding environments. The platform allows users to learn and practice coding directly in the browser with no setup required, offering a variety of courses ranging from beginner to advanced levels.',
+      link: 'https://www.educative.io/',
+      linkText: 'educative.io',
+      langages: 'Node.js React.js AWS'
     },
   ];
 
