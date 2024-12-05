@@ -31,7 +31,7 @@ const Address = () => {
         <>
           <p>
             <a
-              href="https://join.skype.com/invite/iL3DXJW1xKaF"
+              href="https://join.skype.com/invite/ki3cmadpqE1O"
               className="hover:text-[#FA5252] duration-300 transition text-gray-lite text-lg dark:text-[#A6A6A6]"
               target="_blank"
             >
