@@ -52,6 +52,12 @@ const Skills = () => {
             //   alt: "python",
             //   link: "https://www.python.org/",
             // },
+            
+            {
+              img: "/images/frameworks/solidity.svg",
+              alt: "solidity",
+              link: "https://soliditylang.org/",
+            },
           ],
           bg: "#FCF4FF",
         },
@@ -68,6 +74,11 @@ const Skills = () => {
               img: "/images/frameworks/express.png",
               alt: "express",
               link: "https://expressjs.com/",
+            },
+            {
+              img: "/images/frameworks/nestjs.svg",
+              alt: "nestjs",
+              link: "https://nestjs.com/",
             },
             {
               img: "/images/frameworks/react.png",
@@ -99,16 +110,16 @@ const Skills = () => {
               alt: "prisma",
               link: "https://www.prisma.io/",
             },
-            {
-              img: "/images/frameworks/nextauth.png",
-              alt: "next-auth",
-              link: "https://next-auth.js.org/",
-            },
-            {
-              img: "/images/frameworks/trpc.svg",
-              alt: "trpc",
-              link: "https://trpc.io/",
-            },
+            // {
+            //   img: "/images/frameworks/nextauth.png",
+            //   alt: "next-auth",
+            //   link: "https://next-auth.js.org/",
+            // },
+            // {
+            //   img: "/images/frameworks/trpc.svg",
+            //   alt: "trpc",
+            //   link: "https://trpc.io/",
+            // },
             // {
             //   img: "/images/frameworks/blazor.png",
             //   alt: "blazor",
@@ -119,6 +130,26 @@ const Skills = () => {
             //   alt: "maui",
             //   link: "https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui",
             // },
+            {
+              img: "/images/frameworks/truffle.svg",
+              alt: "Truffle",
+              link: "https://trufflesuite.com/",
+            },
+            {
+              img: "/images/frameworks/Hardhat.svg",
+              alt: "Hardhat",
+              link: "https://hardhat.org/",
+            },
+            {
+              img: "/images/frameworks/web3js.svg",
+              alt: "web3js",
+              link: "https://www.web3js.org/",
+            },
+            {
+              img: "/images/frameworks/ethers.svg",
+              alt: "ethersjs",
+              link: "https://docs.ethers.org/",
+            },
           ],
           bg: "#F3FAFF",
         },
@@ -169,7 +200,7 @@ const Skills = () => {
               link: "https://mochajs.org/",
             },
             {
-              img: "/images/frameworks/jest.png",
+              img: "/images/frameworks/Jest.svg",
               alt: "jest",
               link: "https://jestjs.io/",
             },
@@ -182,6 +213,11 @@ const Skills = () => {
               img: "/images/frameworks/postman.png",
               alt: "postman",
               link: "https://www.postman.com/",
+            },
+            {
+              img: "/images/frameworks/waffle.svg",
+              alt: "Waffle",
+              link: "https://getwaffle.io/",
             },
           ],
           bg: "#FFF0F8",

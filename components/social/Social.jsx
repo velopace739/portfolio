@@ -6,11 +6,11 @@ import {
 
 const Social = () => {
   const socialContent = [
-    {
-      link: "https://github.com/velopace739",
-      icon: <FaGithub />,
-      iconClass: "",
-    },
+    // {
+    //   link: "https://github.com/velopace739",
+    //   icon: <FaGithub />,
+    //   iconClass: "",
+    // },
     // {
     //   link: "",
     //   icon: <FaLinkedinIn />,

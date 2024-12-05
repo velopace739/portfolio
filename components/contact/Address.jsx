@@ -66,7 +66,7 @@ const Address = () => {
       title: "Address ",
       info: (
         <p className="text-gray-lite text-lg dark:text-[#A6A6A6] ">
-          Central, Hong Kong
+          Winnipeg, Canada
         </p>
       ),
       bg: "#F2F4FF",

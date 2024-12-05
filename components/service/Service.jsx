@@ -32,6 +32,13 @@ const Service = () => {
       des: "I leverage my interpersonal skills to build strong relationships with stakeholders, clients, and team members.",
       color: "#FF75D8",
       bg: "#FFF0F8",
+    },
+    {
+      icon: "/images/icons/icon-7.svg",
+      title: "Blockchain Development",
+      des: "I specialize in developing NFT marketplaces, smart contracts, and decentralized applications.",
+      color: "#FF75D8",
+      bg: "#EEF5FA",
     }
   ];
 
