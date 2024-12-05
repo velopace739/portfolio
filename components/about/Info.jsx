@@ -32,7 +32,7 @@ const Info = () => {
         <>
           <a
             className="hover:text-[#FA5252] duration-300 transition"
-            href="https://join.skype.com/invite/iL3DXJW1xKaF"
+            href="https://join.skype.com/invite/ki3cmadpqE1O"
             target="_blank"
           >
             live:.cid.449c3224015102e9
