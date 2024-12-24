@@ -11,11 +11,11 @@ const Social = () => {
     //   icon: <FaGithub />,
     //   iconClass: "",
     // },
-    // {
-    //   link: "",
-    //   icon: <FaLinkedinIn />,
-    //   iconClass: "text-[#0072b1]",
-    // },
+    {
+      link: "https://www.linkedin.com/in/evansmjr7",
+      icon: <FaLinkedinIn />,
+      iconClass: "text-[#0072b1]",
+    },
     {
       link: "https://x.com/velopace7",
       icon: <FaTwitter />,
